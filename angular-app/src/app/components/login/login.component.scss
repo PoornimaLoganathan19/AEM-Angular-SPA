@@ -1,0 +1,891 @@
+.user-form-container{
+    display: flex;
+    display: -webkit-flex;  
+    
+    flex-direction: column;
+    -webkit-flex-direction: column;    
+
+    align-items: center;
+    -webkit-align-items: center;
+
+}
+
+.user-form-container header{
+    font-family: poppins-light;
+    font-size: 25px;
+    font-weight: 300px;
+    color: #e20074;
+    
+    letter-spacing: 0.42px;
+    line-height: 67px;
+    
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+.user-form{
+    display: flex;
+    display: -webkit-flex;
+    
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    
+    font-size: 12px;
+    color: #4A4A4A;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px #ccc;            
+    padding: 30px 110px;
+    width: 653px;
+    margin-bottom: 75px;
+}
+
+.login_response{
+    padding-top: 10px;
+    font-family: poppins-light;
+    text-align: center;
+    color: #e20074;
+    font-size: 20px;
+}
+
+.form-element{
+    display: block;
+}
+
+.form-element .lbl{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.form-element .elm{
+    display: block;
+    width: 100%;
+    font-size: 13px;
+}
+
+.form-element .lbl{
+    color: #4a4a4a;
+}
+
+.user-form .form-element{
+    margin-top: 30px;
+}
+
+input[type="text"]{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+    font-family: poppins-light;
+    font-size: 13px;
+    color: #AAA9AA;
+    
+    border: 1px solid #BCBCBC;
+    border-radius: 3px;
+    
+    height: 40px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+input[type="text"]:active, input[type="text"]:focus{
+    color: #4A4A4A;
+    border: 1px solid #4A4A4A;
+    outline-color: transparent;
+}
+
+input[type="text"].success{
+    color: #4A90E2;
+    border: 1px solid #4A90E2;
+}
+
+input[type="text"].error{
+    color: #e20074;
+    border: 1px solid #e20074;
+}
+
+input[type="text"]:disabled{
+    color: #999999;
+    border: 1px solid #AAA9AA;
+    background-color: #F5F5F5;
+}
+
+.mobile-content{
+    display: flex;
+    display: -webkit-flex;
+    
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    
+    width: 100%;
+}
+
+.mobile-content .select-box{    
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    
+    margin-right: 10px;
+}
+
+.mobile-content .select-box select{
+    height: 40px;  
+    padding: 10px;
+
+    font-family: poppins-light;
+    color: #4a4a4a;        
+}
+
+.mobile-content .select-box select:focus{
+    outline-color: transparent;
+}
+
+.mobile-content .select-box span{
+    font-size: 16px;
+    top: 12px;
+    right: 10px;
+}
+
+.mobile-content input{
+    flex-grow: 3;
+}
+
+.user-form-container .mobile-select{
+    width: 103px;
+}
+
+select:active, select:focus{
+    color: #4A4A4A;
+    border: 1px solid #4A4A4A;
+}
+
+.form-element header{
+    color: #e20074;
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    margin: 18px 0;
+}
+
+.personalid-btns p{
+    color: #e20074;
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    margin: 25px 40px;
+}
+
+.primary-btn{
+    font-family: Poppins-Medium;
+    font-size:12px;
+    text-align: center;
+    width: 188px;
+    height: 40px;
+    color: #FFFFFF;
+    line-height: 19px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #e20074;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    text-transform: uppercase;
+}
+
+.primary-btn:hover{
+    background-color: #e20074;
+    text-decoration: underline;
+}
+
+.primary-btn:disabled{
+    color: #808080;
+    background-color: #E3E3E3;
+    text-decoration: underline;
+}
+
+.secondary-btn{
+    font-family: Poppins-Medium;
+    font-size:12px;
+    text-align: center;
+    padding: 10px;
+    width: 95px;
+    height: 40px;
+    color: #e20074;
+    line-height: 19px;
+    text-align: center;
+    background-color: #E3E3E3;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.personalid-section{
+    display:flex;
+    display: -webkit-flex;
+}
+
+.personalid-btns{
+    display: flex;
+    display: -webkit-flex;
+    
+    flex-direction: column;
+    -webkit-flex-direction: column;   
+}
+
+#cedula .form-element{
+    margin-top: 0;
+    
+    flex: 1;
+    -webkit-flex: 1;
+    
+    margin-right: 5px;
+}
+
+#cedula .form-element:last-child{
+    flex: 2;
+}
+
+.cedula-content select{
+    padding: 8px;
+}
+
+.personalid-content{
+    margin-left: 15px;
+    
+    display: flex;
+    display: -webkit-flex;
+    
+    flex-direction: column;
+    -webkit-flex-direction: column;   
+     
+    flex: 1;
+    -webkit-flex: 1;
+}
+
+.cedula-content{
+    display: none; 
+    
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    
+    margin-top: -18px;
+}
+
+.cedula-content select{
+    font-family: poppins-light;
+    height: 40px;
+}
+
+.cedula-content select:focus{
+    outline-color: transparent;
+}
+
+.cedula-content .select-box span{
+    font-size: 16px;
+    right: 7px;
+    top: 12px;
+}
+
+.passport-content{
+    display: none; 
+    
+    flex-direction: column;
+    -webkit-flex-direction: column;   
+     
+    margin-top:auto;
+}
+
+.check-form{
+    display:flex;
+    display: -webkit-flex;
+    
+    flex-direction: column;
+    webkit-flex-direction: column;  
+    
+    align-items: center;
+    -webkit-align-items: center;
+    
+    margin-top: 60px;
+    margin-bottom: 65px;    
+}
+
+.check-content{
+    font-size: 17px;
+    letter-spacing: 0;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: #999999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check-content:after{
+    color: #4A90E2;
+}
+
+.check-content input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+    border: 1px solid #BCBCBC;
+    background-color: #E3E3E3;
+}
+
+.checkmark:focus, .checkmark:hover{
+    border: 1px solid #BCBCBC;
+}
+
+.check-content:hover input ~ .checkmark {
+    background-color: #bcbcbc;
+}
+
+.check-content input:checked ~ .checkmark {
+    background-color: #4A90E2;
+    border-radius: 2px;
+    border: 1px solid #4A90E2;
+}
+
+.checkmark:after {
+    
+}
+
+.check-content input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.check-content .checkmark:after {
+    content: "";
+    display: none;
+    
+    position: absolute;
+    left: 5px;
+    top: 1px;
+
+    width: 5px;
+    height: 10px;
+
+    border: solid white;
+    border-width: 0 2px 2px 0px;
+
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.check-content .checkmark ~ em{
+    font-family: poppins-light;
+    font-size: 13px;
+    font-style: normal;
+    color: #808080;
+    
+    line-height: 21px;
+}
+
+.check-content input:checked ~ em{
+    color: #4A90E2;
+}
+
+.account-btn{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* login page start */
+
+.forgot-section{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.forgot-link{
+    color: #4A90E2;
+    letter-spacing: 0.1px;
+    line-height: 19px;    
+}
+
+.login-btn{
+    font-family: Poppins-Medium;
+    font-size:12px;
+    text-align: center;
+    width: 225px;
+    height: 40px;
+    color: #FFFFFF;
+    line-height: 19px;
+    text-align: center;
+    background-color: #e20074;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.login-btn:hover{
+    background-color: #e20074;
+    text-decoration: underline;
+}
+
+.login-btn:disabled{
+    color: #808080;
+    background-color: #E3E3E3;
+    text-decoration: underline;
+}
+
+.social-login-btn{
+    text-align: center;
+}
+
+.social-login-btn li{
+    margin-bottom: 35px;
+}
+
+.facebook-btn{
+    font-size:12px;    
+    color: #fff;
+    line-height: 19px;
+    font-weight: 600;
+    padding: 10px 52px 10px 25px;
+    background-color: #4266B2;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.google-btn{
+    font-size:12px;    
+    color: #fff;
+    line-height: 19px;
+    font-weight: 600;
+    padding: 10px 58px 10px 32px;
+    background-color: #4285F4;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.signup-btn{
+    font-family: Poppins-Medium;
+    font-size:12px;
+    text-align: center;
+    width: 225px;
+    height: 40px;
+    color: #e20074;
+    line-height: 19px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #e20074;
+    border-radius: 32.5px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.15);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.social-login-btn i{
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    padding-left: 9px;
+}
+
+.newuser-section h1{
+    font-size: 25px;
+    color: #e20074;
+    font-weight: 300;
+    letter-spacing: 0.42px;
+    line-height: 40px;
+    text-align: center;
+    margin: 32px 0;
+}
+
+/* login page end */
+
+/* forgot pwd page start */
+
+.forgot-pwd-container .user-form{
+    padding: 55px 122px;
+    margin-bottom: 130px;
+}
+
+.forgot-pwd-container .form-element{
+    margin-bottom: 55px;
+}
+
+.forgot-pwd-container .account-btn{
+    margin-bottom: 10px;
+}
+
+.user-form h1{
+    height: 46px;	
+    width: 408px;	
+    color: #e20074;	
+    font-family: Poppins-Medium;	
+    font-size: 15px;	
+    font-weight: 300;	
+    line-height: 23px;	
+    text-align: center;
+}
+
+.user-form h2{
+    height: 36px;	
+    width: 408px;	
+    color: #e20074;	
+    font-family: poppins-light;
+    font-size: 11px;	
+    line-height: 18px;	
+    text-align: center;
+    margin-top: 10px;
+}
+.alert-box{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+    display:flex;
+    display: -webkit-flex;
+    
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    
+    height: 53px;
+    width: 410px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    background-color: #e20074;
+    padding: 10px;
+    margin-top: -28px;
+    margin-bottom: 40px;
+}
+
+.alert-line{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+    align-self: center; 
+    
+    height: 35px;
+    width: 2.42px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.alert-message{
+    align-self: center; 
+    height: 30px;	
+    width: 322.31px;	
+    color: #FFFFFF;	
+    font-size: 11px;	
+    font-weight: bold;	
+    line-height: 15px;	
+    text-align: right;
+}
+
+.alert-icon{
+    align-self: center; 
+}
+
+.alert-icon i{
+    font-size: 20px;
+}
+
+.fa-exclamation-circle::before{
+    color: #FAFAFA;
+}
+
+/* forgot pwd page end */
+
+
+@media (min-width : 768px) and (max-width: 1024px){
+    .user-form-container{
+        background-size: 220px, 230px;
+        background-position: -60px bottom, 594px bottom;        
+    }
+}
+
+@media (min-width : 480px) and (max-width: 767px){
+    .user-form-container{
+        background: none;
+        
+        align-items: normal;
+        -webkit-align-items: normal;
+    }
+    
+    .user-form-container header{
+        margin: 18px 18px 0 0;
+        text-align: center;
+    }
+    
+    .user-form{
+        width: auto;
+        padding: 0px 25px;
+        border: none;
+        box-shadow: none;
+    }
+    
+    .user-form header{
+        text-align:left;
+        font-size: 20px;
+    }
+    
+    .user-form .form-element:first-child{
+        margin-top: 25px;
+    }
+    
+    .user-form .form-element{
+        margin-top: 45px;
+    }
+    
+    .form-element .lbl{
+        line-height: 14px;
+        margin-bottom: 12px;
+        color: #4A4A4A;
+    }
+    
+    input[type="text"]{
+        height: 60px;
+    }
+    
+    .personalid-btns{
+        flex-direction: row;
+        webkit-flex-direction: row;
+    }
+    
+    .mobile-content .select-box select{
+        height: 60px;
+    }
+    
+    .mobile-content .select-box span{
+        top: 18px;
+        right: 15px;
+    }
+    
+    .secondary-btn{
+        flex-grow: 1;
+        
+        height: 60px;
+    }
+    
+    .personalid-btns p{
+        flex-grow: 1;
+        margin: 0;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .personalid-section{
+        display:flex;
+        display: -webkit-flex;
+        
+        flex-direction: column;
+        webkit-flex-direction: column;
+        
+        margin-top: 40px;
+    }
+        
+    .cedula-content{
+        flex-direction: row;
+        webkit-flex-direction: row;
+        
+        flex-wrap: wrap;
+    }
+    
+    .cedula-content select{
+        height: 60px;
+    }
+    
+    .cedula-content .select-box span{
+        font-size: 20px;
+        right: 6px;
+        top: 8px;
+    }
+    
+    .personalid-content{
+        margin-top: 55px;
+    }
+    
+    #cedula .form-element{
+        margin-top: 18px;
+        flex-basis: 30%;
+    }
+    
+    #cedula .form-element:last-child{
+        flex-basis: 63%;
+    }
+    
+    .cedula-content select{
+        padding: 15px;
+    }
+    
+    .cedula-content .select-box span{
+        top: 18px;
+        right: 20px;
+    }
+    
+    .mobile-content input{
+        flex-grow: 0;
+    }
+    
+    .mobile-content .select-box span {
+        font-size: 20px;
+        top: 18px;
+    }
+    
+    .passport-content{
+        margin-top:75px;
+    }
+    
+    .personalid-content{
+        margin-left: 0;
+    }
+    
+    .check-form{
+        margin-bottom: 105px;
+    }
+    
+    .check-content{
+        margin-bottom: 45px;
+    }
+    
+    .checkmark{
+        height: 28px;
+        width: 28px;
+    }
+    
+    .check-content .checkmark ~ em{
+        font-size: 17px;
+        line-height: 25px;
+        
+        padding-left: 20px;
+    }
+    
+    .check-content .checkmark:after{
+        left: 9px;
+        top: 5px;
+        
+        width: 5px;
+        height: 10.5px;
+    }
+    
+    .account-btn{
+        margin-bottom: 12px;
+    }
+    
+    .primary-btn{
+        height: 60px;
+        width: 260px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    /* login page start */
+    
+    .login-form-container .form-element{
+        margin-top: 25px;
+    }
+    
+    .login-form-container header{
+        margin-bottom: 10px;
+    }
+    
+    .forgot-section{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .forgot-link{
+        font-size: 17px;
+        line-height: 28px;
+    }
+    
+    .login-btn{
+        height: 60px;
+        width: 260px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .social-login-btn{
+        margin-top: 35px;
+    }
+    
+    .social-login-btn i{
+        font-size: 26px;
+    }
+    
+    .facebook-btn{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25px;
+        padding: 21px 104px 21px 69px;
+    }
+    
+    .google-btn{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25px;
+        padding: 21px 116px 21px 82px;
+    }
+    
+    .newuser-section h1{
+        margin: 48px 0 28px 0;
+    }
+    
+    .signup-btn, .login-btn{
+        width:250px;
+        height: 60px;
+        font-size: 17px;
+    }
+    
+    /* login page end */
+    
+    /* forgot password page start */
+    
+    .forgot-pwd-container .user-form{
+        padding: 0 35px;
+        margin-bottom: 50px;
+    }
+    
+    .user-form h1{
+        font-size: 20px;
+    }
+    
+    .user-form h2{
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    
+    /* forgot password page end */
+    
+}

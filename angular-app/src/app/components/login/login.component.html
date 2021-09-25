@@ -1,0 +1,20 @@
+<div class="pg-body">
+  <div class="user-form-container login-form-container">      
+      <header>login to your account</header>     
+          <div class="form-element">
+              <label for="userName" class="lbl">Username / Email ID</label>
+              <input type="text" class="form-control" name="usename" [(ngModel)]="username" />
+          </div>
+          <div class="form-element">
+              <label for="password" class="lbl">Password</label>
+              <input type="password" class="form-control" name="password" [(ngModel)]="password" />
+          </div>
+          <div class="forgot-section">
+              <a href="#" class="forgot-link">Forgot Password</a>
+          </div>
+          <div class="account-btn">
+              <button class="login-btn" (click)="login()">Login</button>           
+          </div>
+      </div>
+  </div>
+  
